@@ -5,7 +5,6 @@
 #include <vtkObjectFactory.h>
 
 //-----------------------------------------------------------------------------
-vtkCxxRevisionMacro(vtkMyFoo, "$Revision: $");
 vtkStandardNewMacro(vtkMyFoo);
 
 //-----------------------------------------------------------------------------
