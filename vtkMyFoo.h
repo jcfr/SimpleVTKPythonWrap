@@ -9,7 +9,7 @@ class vtkMyFoo : public vtkObject
 {
 public:
   static vtkMyFoo *New();
-  vtkTypeRevisionMacro(vtkMyFoo,vtkObject);
+  vtkTypeMacro(vtkMyFoo,vtkObject);
   void PrintSelf(ostream& os, vtkIndent indent);
 
   void Hello()const;
